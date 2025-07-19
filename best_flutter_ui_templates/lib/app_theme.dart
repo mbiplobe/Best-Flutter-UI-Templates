@@ -20,13 +20,13 @@ class AppTheme {
   static const String fontName = 'WorkSans';
 
   static const TextTheme textTheme = TextTheme(
-    headline4: display1,
-    headline5: headline,
-    headline6: title,
-    subtitle2: subtitle,
-    bodyText2: body2,
-    bodyText1: body1,
-    caption: caption,
+    displayLarge: display1,
+    displayMedium: headline,
+    displaySmall: title,
+    titleMedium: subtitle,
+    bodyLarge: body2,
+    bodyMedium: body1,
+    bodySmall: bodySmall,
   );
 
   static const TextStyle display1 = TextStyle( // h4 -> display1
@@ -54,7 +54,7 @@ class AppTheme {
     color: darkerText,
   );
 
-  static const TextStyle subtitle = TextStyle( // subtitle2 -> subtitle
+  static const TextStyle subtitle = TextStyle( // titleMedium -> subtitle
     fontFamily: fontName,
     fontWeight: FontWeight.w400,
     fontSize: 14,
@@ -78,7 +78,7 @@ class AppTheme {
     color: darkText,
   );
 
-  static const TextStyle caption = TextStyle( // Caption -> caption
+  static const TextStyle bodySmall = TextStyle( // bodySmall -> bodySmall
     fontFamily: fontName,
     fontWeight: FontWeight.w400,
     fontSize: 12,
